@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UFT-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--MENU-->
+    <div class="header-container">
+      <header>
+        <div class="logo">
+          <a href="#">Paula</a>
+        </div>
+        <nav id="nav">
+          <ul>
+            <li><a href="#inicio" onclick="select()">START</a></li>
+            <li><a href="#about" onclick="select()">ABOUT</a></li>
+            <li><a href="#skills" onclick="select()">SKILLS</a></li>
+            <li><a href="#projects" onclick="select()">PROJECTS</a></li>
+          </ul>
+        </nav>
+        <div class="nav-responsive" onclick="toggleShowandHide()">
+          <i class="fa-solid fa-paw"></i>
+        </div>
+      </header>
+    </div>
+
+    <!--START-->
+    <section id="inicio" class="inicio">
+      <div class="banner-content">
+        <div class="img-content">
+          <img src="img/logo5.png" alt="logo" />
+        </div>
+        <h1>Paula Gamez</h1>
+        <h2>Full Stack Developer || Learning Specialist</h2>
+        <div class="redes">
+          <a
+            href="https://www.linkedin.com/in/paula-gamez-448354222/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+          <a href="https://github.com/PSGamezG" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <!--ABOUT-->
+    <section id="about" class="about">
+      <div class="header-content">
+        <h2>ABOUT ME</h2>
+        <p>
+          <span>Hi, I'm Paula</span> a Dynamic Bilingual Jr Full-Stack Developer
+          with a background in Customer Service and Product Training. Passionate
+          about learning and solving challenges. A strong foundation in both
+          front-end and backend technologies like Javascript, CSS, Vite, Node,
+          React, Redux and PostgreSQL, which has allowed me to develop projects
+          under agile methodologies (Scrum).With a track record of collaboration
+          and problem-solving. Nice to meet you uwu
+        </p>
+
+        <div class="fila">
+          <!--Personal Information-->
+          <div class="col">
+            <h3>Personal Information</h3>
+            <ul>
+              <li>
+                <strong>Phone</strong>
+                (+57) 311 259 5955
+              </li>
+              <li>
+                <strong>Email</strong>
+                paulasgamezg@gmail.com
+              </li>
+              <li>
+                <strong>Adress</strong>
+                Bogota, Colombia
+              </li>
+            </ul>
+          </div>
+          <!--Hobbies-->
+          <div class="col">
+            <h3>Hobbies</h3>
+            <div class="hobbies-container">
+              <div class="hobbies">
+                <i class="fa-solid fa-gamepad"></i>
+                <span>GAMING</span>
+              </div>
+              <div class="hobbies">
+                <i class="fa-solid fa-music"></i>
+                <span>MUSIC</span>
+              </div>
+              <div class="hobbies">
+                <i class="fa-solid fa-book"></i>
+                <span>READING</span>
+              </div>
+              <div class="hobbies">
+                <i class="fa-solid fa-video"></i>
+                <span>EDITING</span>
+              </div>
+              <div class="hobbies">
+                <i class="fa-solid fa-dumbbell"></i>
+                <span>EXERCISE</span>
+              </div>
+              <div class="hobbies">
+                <i class="fa-solid fa-kitchen-set"></i>
+                <span>COOK</span>
+              </div>
+              <div class="hobbies">
+                <i class="fa-solid fa-puzzle-piece"></i>
+                <span>PUZZLE</span>
+              </div>
+              <div class="hobbies">
+                <i class="fa-solid fa-plane"></i>
+                <span>TRAVEL</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button>
+          Download CV <i class="fa-solid fa-download"></i>
+          <span class="overlay"></span>
+        </button>
+      </div>
+    </section>
+
+    <!--SKILLS-->
+    <section id="skills" class="skills">
+      <div class="skills-content">
+        <h2>SKILLS</h2>
+        <div class="fila">
+          <!--Technical skills-->
+          <div class="col">
+            <h3>Technical</h3>
+            <div class="skill">
+              <span>Javascript</span>
+              <div class="barra-skill">
+                <div class="percentage javascript">
+                  <span>80%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>HTML & CSS</span>
+              <div class="barra-skill">
+                <div class="percentage html">
+                  <span>80%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>React Redux</span>
+              <div class="barra-skill">
+                <div class="percentage react">
+                  <span>75%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Node</span>
+              <div class="barra-skill">
+                <div class="percentage node">
+                  <span>70%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>PostgreSQL</span>
+              <div class="barra-skill">
+                <div class="percentage sql">
+                  <span>75%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Git & Gitflow</span>
+              <div class="barra-skill">
+                <div class="percentage git">
+                  <span>80%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Scrum</span>
+              <div class="barra-skill">
+                <div class="percentage scrum">
+                  <span>80%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Professional Skills-->
+          <div class="col">
+            <h3>Personal</h3>
+            <div class="skill">
+              <span>Leadership</span>
+              <div class="barra-skill">
+                <div class="percentage leadership">
+                  <span>85%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Problem-solving</span>
+              <div class="barra-skill">
+                <div class="percentage problem">
+                  <span>85%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Time management</span>
+              <div class="barra-skill">
+                <div class="percentage time">
+                  <span>90%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Conflict Resolution</span>
+              <div class="barra-skill">
+                <div class="percentage conflict">
+                  <span>90%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Customer Satisfaction</span>
+              <div class="barra-skill">
+                <div class="percentage customer">
+                  <span>90%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Communication</span>
+              <div class="barra-skill">
+                <div class="percentage communication">
+                  <span>95%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Teamwork</span>
+              <div class="barra-skill">
+                <div class="percentage teamwork">
+                  <span>95%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--SECCION PROYECTOS-->
+    <section id="projects" class="projects">
+      <div class="project-content">
+        <h2>PROJECTS</h2>
+        <div class="galeria">
+          <div class="project">
+            <img src="img/photo3 (1).png" alt="" />
+            <div class="overlay">
+              <h3>HealthPlus</h3>
+              <p>
+                Development of a health-oriented web application in
+                collaboration with a team, applying SCRUM. Designed the user
+                interface and experience using Figma, additional features like
+                chatbot and dark mode.
+              </p>
+            </div>
+          </div>
+          <div class="project">
+            <img src="img/photo4.png" alt="" />
+            <div class="overlay">
+              <h3>Countries</h3>
+              <p>
+                SPA with API consumption. Database management, building models,
+                creating routes, and controllers. Frontend development ensuring
+                responsive and interactive user interfaces.
+              </p>
+            </div>
+          </div>
+          <div class="project">
+            <img src="img/photo2.png" alt="" />
+            <div class="overlay">
+              <h3>Rick & Morty</h3>
+              <p>
+                SPA with API consumption that brings characters with different
+                views and components,Database management and Frontend
+                development ensuring responsive and interactive user interfaces.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--FOOTER-->
+    <footer>
+      <a href="#inicio" class="up">
+        <i class="fa-solid fa-up-long"></i>
+      </a>
+      <div class="redes">
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -202,7 +202,7 @@ html {
   margin-bottom: 10px;
 }
 
-.about button {
+.about a {
   cursor: pointer;
   background-color: transparent;
   border: 2px solid #ffffff;
@@ -216,7 +216,7 @@ html {
   z-index: 10;
 }
 
-.about button .overlay {
+.about a .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -227,7 +227,7 @@ html {
   transition: 1s;
 }
 
-.about button:hover .overlay {
+.about a:hover .overlay {
   width: 100%;
 }
 
